@@ -13,11 +13,6 @@ Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utiliz
 let nome = 'Flavio';
 console.log(`Olá, ${nome}!`);
 ```
-Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert para exibir a mensagem "Olá, [seu nome]!" .
-```ruby
-let nome = 'Flavio';
-alert(`Olá, ${nome}!`);
-```
 Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?. Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
 ```ruby
 let linguagem = prompt('Qual a linguagem de programação que você mais gosta?');
