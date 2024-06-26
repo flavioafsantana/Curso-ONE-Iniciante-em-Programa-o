@@ -1,7 +1,9 @@
 # Curso ONE Iniciante em Programação
 
 Desafios: Hora da prática
+
 Desafios
+
 1.Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
 2.Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
