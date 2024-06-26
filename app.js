@@ -17,11 +17,11 @@ if (numero > 0) {
     alert('O numero digitado é zero');
 }
 //Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
-let pontuacao 
+let pontuacao = 100
 if (pontuacao >= 100) {
-    alert('Parabéns, você venceu!');
+    console.log('Parabéns, você venceu!');
 } else {
-    alert('Tente novamente para ganhar.');
+    console.log('Tente novamente para ganhar.');
 }
 //Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 let saldo = 10;
