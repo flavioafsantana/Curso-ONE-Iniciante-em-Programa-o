@@ -1,57 +1,42 @@
 # Curso ONE Iniciante em Programação
 
+## Listas
+
 Desafios: Hora da prática
 
 Desafios
 
-1.Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
-
+1. Crie uma lista vazia, com o nome listaGenerica.
 ```ruby
-let diaDaSemana = prompt('Qual o dia da semana?');
-if (diaDaSemana == 'Sábado'){
-    alert('Bom fim de semana!');
-} else if (diaDaSemana == 'Domingo'){
-    alert('Bom fim de semana!');
-} else {
-    alert('Boa semana!');
-}
+let listaGenerica = [];
+```
+2. Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
+```ruby
+let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+
+linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
+```
+3. Adicione à lista linguagensDeProgramacao os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+4. Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+```ruby
+let idiomas = ['Português', 'Inglês', 'Espanhol'];
+
+console.log(idiomas[0]);
+//Português
+```
+5. Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+```ruby
+let setup = ['Monitor', 'Mouse', 'Teclado'];
+
+console.log(setup[1]);
+//Mouse
+```
+6. Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
+```ruby
+let listaDeComprasDoMercado = ['Arroz', 'Carne', 'Ovo'];
+
+console.log(listaDeComprasDoMercado[listaDeComprasDoMercado.length-1]);
+//Ovo
 ```
 
-2.Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-
-```ruby
-let numero = prompt('Digite um numero');
-if (numero > 0) {
-    alert('O numero digitado é positivo');
-} else if (numero < 0) {
-    alert('O numero digitado é negativo');
-} else {
-    alert('O numero digitado é zero');
-}
-```
-
-3.Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
-
-```ruby
-let pontuacao 
-if (pontuacao >= 100) {
-    console.log('Parabéns, você venceu!');
-} else {
-    console.log('Tente novamente para ganhar.');
-}
-```
-
-4.Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
-
-```ruby
-let saldo = 10;
-let mensagem = alert(`Seu saldo é de R$ ${saldo}`);
-```
-
-5.Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
-
-```ruby
-let nome = prompt('Digite seu nome:');
-alert(`Olá, ${nome}! Seja bem-vindo!`);
-```
 
